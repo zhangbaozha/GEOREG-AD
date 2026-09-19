@@ -1,0 +1,6 @@
+# Observed original environment: Ubuntu 22.04, Python 3.8.16, CPU run.
+numpy==1.24.2
+scipy==1.9.1
+open3d==0.17.0
+scikit-learn
+# scikit-learn exact version was not recorded in the original env-spec.json.
