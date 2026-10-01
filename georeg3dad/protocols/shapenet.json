@@ -1,0 +1,453 @@
+{
+  "dataset": "shapenet",
+  "categories": [
+    {
+      "category": "new_pcd__cabinet0",
+      "source_category": "cabinet0",
+      "source_split": "new_pcd",
+      "test_scans": 35,
+      "normal_scans": 15,
+      "point_valid_scans": 35
+    },
+    {
+      "category": "new_pcd__cap1",
+      "source_category": "cap1",
+      "source_split": "new_pcd",
+      "test_scans": 34,
+      "normal_scans": 15,
+      "point_valid_scans": 34
+    },
+    {
+      "category": "new_pcd__cap2",
+      "source_category": "cap2",
+      "source_split": "new_pcd",
+      "test_scans": 34,
+      "normal_scans": 15,
+      "point_valid_scans": 34
+    },
+    {
+      "category": "new_pcd__chair0",
+      "source_category": "chair0",
+      "source_split": "new_pcd",
+      "test_scans": 35,
+      "normal_scans": 15,
+      "point_valid_scans": 35
+    },
+    {
+      "category": "new_pcd__cup2",
+      "source_category": "cup2",
+      "source_split": "new_pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "new_pcd__desk0",
+      "source_category": "desk0",
+      "source_split": "new_pcd",
+      "test_scans": 35,
+      "normal_scans": 15,
+      "point_valid_scans": 35
+    },
+    {
+      "category": "new_pcd__knife0",
+      "source_category": "knife0",
+      "source_split": "new_pcd",
+      "test_scans": 35,
+      "normal_scans": 15,
+      "point_valid_scans": 35
+    },
+    {
+      "category": "new_pcd__knife1",
+      "source_category": "knife1",
+      "source_split": "new_pcd",
+      "test_scans": 35,
+      "normal_scans": 15,
+      "point_valid_scans": 35
+    },
+    {
+      "category": "new_pcd__microphone1",
+      "source_category": "microphone1",
+      "source_split": "new_pcd",
+      "test_scans": 31,
+      "normal_scans": 15,
+      "point_valid_scans": 31
+    },
+    {
+      "category": "new_pcd__screen0",
+      "source_category": "screen0",
+      "source_split": "new_pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "new_pcd__vase10",
+      "source_category": "vase10",
+      "source_split": "new_pcd",
+      "test_scans": 38,
+      "normal_scans": 15,
+      "point_valid_scans": 38
+    },
+    {
+      "category": "new_pcd__vase6",
+      "source_category": "vase6",
+      "source_split": "new_pcd",
+      "test_scans": 37,
+      "normal_scans": 15,
+      "point_valid_scans": 37
+    },
+    {
+      "category": "pcd__ashtray0",
+      "source_category": "ashtray0",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__bag0",
+      "source_category": "bag0",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__bottle0",
+      "source_category": "bottle0",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__bottle1",
+      "source_category": "bottle1",
+      "source_split": "pcd",
+      "test_scans": 34,
+      "normal_scans": 15,
+      "point_valid_scans": 34
+    },
+    {
+      "category": "pcd__bottle3",
+      "source_category": "bottle3",
+      "source_split": "pcd",
+      "test_scans": 36,
+      "normal_scans": 15,
+      "point_valid_scans": 36
+    },
+    {
+      "category": "pcd__bowl0",
+      "source_category": "bowl0",
+      "source_split": "pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "pcd__bowl1",
+      "source_category": "bowl1",
+      "source_split": "pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "pcd__bowl2",
+      "source_category": "bowl2",
+      "source_split": "pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "pcd__bowl3",
+      "source_category": "bowl3",
+      "source_split": "pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "pcd__bowl4",
+      "source_category": "bowl4",
+      "source_split": "pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "pcd__bowl5",
+      "source_category": "bowl5",
+      "source_split": "pcd",
+      "test_scans": 34,
+      "normal_scans": 15,
+      "point_valid_scans": 34
+    },
+    {
+      "category": "pcd__bucket0",
+      "source_category": "bucket0",
+      "source_split": "pcd",
+      "test_scans": 36,
+      "normal_scans": 15,
+      "point_valid_scans": 36
+    },
+    {
+      "category": "pcd__bucket1",
+      "source_category": "bucket1",
+      "source_split": "pcd",
+      "test_scans": 36,
+      "normal_scans": 15,
+      "point_valid_scans": 36
+    },
+    {
+      "category": "pcd__cap0",
+      "source_category": "cap0",
+      "source_split": "pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "pcd__cap3",
+      "source_category": "cap3",
+      "source_split": "pcd",
+      "test_scans": 34,
+      "normal_scans": 15,
+      "point_valid_scans": 34
+    },
+    {
+      "category": "pcd__cap4",
+      "source_category": "cap4",
+      "source_split": "pcd",
+      "test_scans": 34,
+      "normal_scans": 15,
+      "point_valid_scans": 34
+    },
+    {
+      "category": "pcd__cap5",
+      "source_category": "cap5",
+      "source_split": "pcd",
+      "test_scans": 34,
+      "normal_scans": 15,
+      "point_valid_scans": 34
+    },
+    {
+      "category": "pcd__cup0",
+      "source_category": "cup0",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__cup1",
+      "source_category": "cup1",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__eraser0",
+      "source_category": "eraser0",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__headset0",
+      "source_category": "headset0",
+      "source_split": "pcd",
+      "test_scans": 30,
+      "normal_scans": 15,
+      "point_valid_scans": 30
+    },
+    {
+      "category": "pcd__headset1",
+      "source_category": "headset1",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__helmet0",
+      "source_category": "helmet0",
+      "source_split": "pcd",
+      "test_scans": 38,
+      "normal_scans": 15,
+      "point_valid_scans": 38
+    },
+    {
+      "category": "pcd__helmet1",
+      "source_category": "helmet1",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 24
+    },
+    {
+      "category": "pcd__helmet2",
+      "source_category": "helmet2",
+      "source_split": "pcd",
+      "test_scans": 38,
+      "normal_scans": 15,
+      "point_valid_scans": 38
+    },
+    {
+      "category": "pcd__helmet3",
+      "source_category": "helmet3",
+      "source_split": "pcd",
+      "test_scans": 37,
+      "normal_scans": 15,
+      "point_valid_scans": 37
+    },
+    {
+      "category": "pcd__jar0",
+      "source_category": "jar0",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__microphone0",
+      "source_category": "microphone0",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__shelf0",
+      "source_category": "shelf0",
+      "source_split": "pcd",
+      "test_scans": 38,
+      "normal_scans": 15,
+      "point_valid_scans": 38
+    },
+    {
+      "category": "pcd__tap0",
+      "source_category": "tap0",
+      "source_split": "pcd",
+      "test_scans": 37,
+      "normal_scans": 15,
+      "point_valid_scans": 37
+    },
+    {
+      "category": "pcd__tap1",
+      "source_category": "tap1",
+      "source_split": "pcd",
+      "test_scans": 33,
+      "normal_scans": 15,
+      "point_valid_scans": 33
+    },
+    {
+      "category": "pcd__vase0",
+      "source_category": "vase0",
+      "source_split": "pcd",
+      "test_scans": 31,
+      "normal_scans": 15,
+      "point_valid_scans": 31
+    },
+    {
+      "category": "pcd__vase1",
+      "source_category": "vase1",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__vase2",
+      "source_category": "vase2",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__vase3",
+      "source_category": "vase3",
+      "source_split": "pcd",
+      "test_scans": 37,
+      "normal_scans": 15,
+      "point_valid_scans": 37
+    },
+    {
+      "category": "pcd__vase4",
+      "source_category": "vase4",
+      "source_split": "pcd",
+      "test_scans": 37,
+      "normal_scans": 15,
+      "point_valid_scans": 37
+    },
+    {
+      "category": "pcd__vase5",
+      "source_category": "vase5",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__vase7",
+      "source_category": "vase7",
+      "source_split": "pcd",
+      "test_scans": 29,
+      "normal_scans": 15,
+      "point_valid_scans": 29
+    },
+    {
+      "category": "pcd__vase8",
+      "source_category": "vase8",
+      "source_split": "pcd",
+      "test_scans": 37,
+      "normal_scans": 15,
+      "point_valid_scans": 37
+    },
+    {
+      "category": "pcd__vase9",
+      "source_category": "vase9",
+      "source_split": "pcd",
+      "test_scans": 37,
+      "normal_scans": 15,
+      "point_valid_scans": 37
+    }
+  ],
+  "exclusions": [
+    {
+      "category": "pcd__helmet1",
+      "sample": "helmet1_bulge0",
+      "sha256": "6337c29da8a76053d2de6bc69cf7a195366f5351066b9f6320a42483dc651091",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "pcd__helmet1",
+      "sample": "helmet1_bulge2",
+      "sha256": "a30b818af73d30bd2e41836d50500f6383531b7e702d12820ccd834abd5b375e",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "pcd__helmet1",
+      "sample": "helmet1_bulge6",
+      "sha256": "7057551a2ab0a296c92ec0d0e41607508ff5f0893ef25ba42f8c122099354621",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "pcd__helmet1",
+      "sample": "helmet1_concavity3",
+      "sha256": "ba8ef8f533c5fab87848a96924c7f546e75fa120c0f90e0023a785f55e3d1492",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "pcd__helmet1",
+      "sample": "helmet1_concavity5",
+      "sha256": "427485cbb172d5da04f9caebf2f3980b4156e3f62d8b8d6e97af6f8feb4f3df7",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    }
+  ]
+}

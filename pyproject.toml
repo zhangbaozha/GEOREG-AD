@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "georeg3dad"
+version = "0.1.0"
+description = "Portable geometry-based 3D anomaly detection"
+requires-python = ">=3.10,<3.11"
+dependencies = ["numpy==1.24.2", "scipy==1.9.1", "open3d==0.17.0", "scikit-learn==1.2.2"]
+
+[project.scripts]
+georeg3dad = "georeg3dad.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["georeg3dad*"]
+
+[tool.setuptools.package-data]
+georeg3dad = ["protocols/*.json"]

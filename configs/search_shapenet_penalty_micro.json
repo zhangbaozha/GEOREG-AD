@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "shapenet_penalty_micro_20260924",
+  "final_evaluation": "last_validation",
+  "stages": [
+    {
+      "name": "penalty_micro",
+      "validation": "all",
+      "grid": {
+        "matching.unmatched_penalty": [0.125, 0.25, 0.5, 16.0]
+      }
+    }
+  ]
+}

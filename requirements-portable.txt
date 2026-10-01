@@ -1,0 +1,5 @@
+# Reproduction stack validated on local Windows / Python 3.10.
+numpy==1.24.2
+scipy==1.9.1
+open3d==0.17.0
+scikit-learn==1.2.2

@@ -1,0 +1,60 @@
+{
+  "dataset": "real3dad",
+  "description": "Latest validation-selected Real3D configuration (plane=1); full-data AUC/AP tradeoff vs balanced. Not a universally superior configuration.",
+  "method": {
+    "features": {
+      "voxel": 0.2,
+      "normal_radius": 2.5,
+      "normal_neighbors": 32,
+      "fpfh_radius": 5.0,
+      "fpfh_neighbors": 100
+    },
+    "registration": {
+      "fgr_distance": 2.5,
+      "fgr_iterations": 64,
+      "icp_distance": 2.5,
+      "icp_iterations": 50,
+      "relative_fitness": 1e-06,
+      "relative_rmse": 1e-06
+    },
+    "matching": {
+      "candidate_k": 8,
+      "radius_h": 6.0,
+      "distance_weight": 1.0,
+      "plane_weight": 1.0,
+      "normal_weight": 0.5,
+      "unmatched_penalty": 1.0
+    },
+    "interpolation": {
+      "k": 128,
+      "power": 0.0,
+      "chunk_size": 4096,
+      "epsilon": 1e-08
+    },
+    "templates": {
+      "count": 4,
+      "reference_index": 0,
+      "spacing_quantile": 0.5,
+      "seed": 0
+    },
+    "object_top_fraction": 0.01
+  },
+  "presets": {
+    "balanced": {
+      "matching": {
+        "plane_weight": 0.5
+      }
+    },
+    "baseline": {
+      "matching": {
+        "radius_h": 8.0,
+        "unmatched_penalty": 16.0,
+        "plane_weight": 0.5
+      },
+      "interpolation": {
+        "k": 3,
+        "power": 1.0
+      }
+    }
+  }
+}

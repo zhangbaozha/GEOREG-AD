@@ -1,0 +1,50 @@
+{
+  "dataset": "shapenet",
+  "description": "ShapeNet reference configuration, k=3/p=1. Real3D k=128 did not transfer well; independent ShapeNet tuning remains outstanding.",
+  "method": {
+    "features": {
+      "voxel": 0.05,
+      "normal_radius": 2.5,
+      "normal_neighbors": 32,
+      "fpfh_radius": 5.0,
+      "fpfh_neighbors": 100
+    },
+    "registration": {
+      "fgr_distance": 2.5,
+      "fgr_iterations": 64,
+      "icp_distance": 2.5,
+      "icp_iterations": 50,
+      "relative_fitness": 1e-06,
+      "relative_rmse": 1e-06
+    },
+    "matching": {
+      "candidate_k": 8,
+      "radius_h": 8.0,
+      "distance_weight": 1.0,
+      "plane_weight": 0.5,
+      "normal_weight": 0.5,
+      "unmatched_penalty": 16.0
+    },
+    "interpolation": {
+      "k": 3,
+      "power": 1.0,
+      "chunk_size": 4096,
+      "epsilon": 1e-08
+    },
+    "templates": {
+      "count": 4,
+      "reference_index": 0,
+      "spacing_quantile": 0.5,
+      "seed": 0
+    },
+    "object_top_fraction": 0.01
+  },
+  "presets": {
+    "k128_ablation": {
+      "interpolation": {
+        "k": 128,
+        "power": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "shapenet_candidates_penalty_20260926",
+  "final_evaluation": "last_validation",
+  "stages": [
+    {
+      "name": "candidates_penalty",
+      "validation": "all",
+      "grid": {
+        "matching.candidate_k": [4, 8, 12, 16, 24],
+        "matching.unmatched_penalty": [0.5, 16.0]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\analyze_component_ablation.py",
+    "file": "analyze_component_ablation.py",
+    "sha256": "2d6bfddb1f6d7e949860d474cf1ae3de2976a5bc132b74f3977db4ce5e2961d2"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\analyze_object_aggregation.py",
+    "file": "analyze_object_aggregation.py",
+    "sha256": "891885d1de31b1cb2d898116f8f736ec006d492192f2b23cb0c4243b9b22224e"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\analyze_run_timing.py",
+    "file": "analyze_run_timing.py",
+    "sha256": "cae3042c3d5b217e2245b24d4bcf866970eafd523daafa7259f5acad7bc8a31c"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\audit_all.py",
+    "file": "audit_all.py",
+    "sha256": "96ff87225425c759e35358355048cfdd6f6dafda5813ee7b58b1568e43588371"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\pilot.py",
+    "file": "pilot.py",
+    "sha256": "84e37bb59584dc913d40dbe1aae9d3a7150a7ce17320e7bd1dd25f4b132b761f"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\prepare_real3dad_component_manifest.py",
+    "file": "prepare_real3dad_component_manifest.py",
+    "sha256": "dce73c0e94c8baf9ba1264c29dd512f867edb4fc9f39a5294a0cbcfbef6b738d"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\prepare_shapenet_layout.py",
+    "file": "prepare_shapenet_layout.py",
+    "sha256": "7d5ca11719b378017ce1d3121d509ac4919910665ee39e8ddb04c6b8eb7caed5"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\raw_baseline.py",
+    "file": "raw_baseline.py",
+    "sha256": "153620d464725eda4e6c33ba9923ed6c3b284e378ebbe4828cf6e69f80f940b2"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\run_component_ablations.py",
+    "file": "run_component_ablations.py",
+    "sha256": "55159b1de5b10cfd9b0ba30e108efcd08a0cd45eacac7262201c6562f150f8bf"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\run_shapenet_full.py",
+    "file": "run_shapenet_full.py",
+    "sha256": "e57ca6c47ad7b2c4b53cfc12583750e5fbd494a01bfbc3b6aca063e24c88a0ef"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\summarize_shapenet.py",
+    "file": "summarize_shapenet.py",
+    "sha256": "385cca639ff4d0758b2093d184a6aa1a0e15f6989b8cb5bf07fae8f0d4f40ceb"
+  },
+  {
+    "source": "C:\\Users\\64341\\Documents\\Codex\\shapenet_georeg_work\\shapenet\\verify_shapenet_run.py",
+    "file": "verify_shapenet_run.py",
+    "sha256": "e1e01947d83e11fd7af98d1af6f9c8cb36bfba29cfbf4a5b8f003d3808302a9d"
+  }
+]

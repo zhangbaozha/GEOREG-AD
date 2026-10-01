@@ -1,0 +1,133 @@
+{
+  "dataset": "real3dad",
+  "categories": [
+    {
+      "category": "airplane",
+      "source_category": "airplane",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "candybar",
+      "source_category": "candybar",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "car",
+      "source_category": "car",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "chicken",
+      "source_category": "chicken",
+      "source_split": "real3dad",
+      "test_scans": 106,
+      "normal_scans": 52,
+      "point_valid_scans": 104
+    },
+    {
+      "category": "diamond",
+      "source_category": "diamond",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "duck",
+      "source_category": "duck",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "fish",
+      "source_category": "fish",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "gemstone",
+      "source_category": "gemstone",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "seahorse",
+      "source_category": "seahorse",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 98
+    },
+    {
+      "category": "shell",
+      "source_category": "shell",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 52,
+      "point_valid_scans": 100
+    },
+    {
+      "category": "starfish",
+      "source_category": "starfish",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 99
+    },
+    {
+      "category": "toffees",
+      "source_category": "toffees",
+      "source_split": "real3dad",
+      "test_scans": 100,
+      "normal_scans": 50,
+      "point_valid_scans": 100
+    }
+  ],
+  "exclusions": [
+    {
+      "category": "chicken",
+      "sample": "705_bulge",
+      "sha256": "fbeecbaf8707e28b3b05ab1e70b4603a6d890d2f5e096b374a4cd687a7c17acd",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "chicken",
+      "sample": "706_sink",
+      "sha256": "b15464e66501f1c868d817582a69fe98f96980456f3a1ad18a286ef92e4dc5d0",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "seahorse",
+      "sample": "265_bulge",
+      "sha256": "963012d530ace346a95e3d864a88071c9127716be702eed98cb21e563adb79b4",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "seahorse",
+      "sample": "265_bulge_cut",
+      "sha256": "5d9e90ba34c61a4c6df5cc0e05dcf9333df140fc9f51ddccd941eec2eaa71eec",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    },
+    {
+      "category": "starfish",
+      "sample": "433_bulge",
+      "sha256": "146756208e4db41c5bd398e4f30c61bfbd6251df52104f482240149e23fe17a6",
+      "reason": "Archived GT point-count mismatch; object-level evaluation retained"
+    }
+  ]
+}
